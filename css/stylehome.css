@@ -1,0 +1,383 @@
+/* --------------------------------------START IN THE MAIN ------------------------------*/
+
+#home .home {
+  background-color: #740707;
+  border-radius: 5px;
+}
+
+.SliderDestaque img {
+  width: 1280px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 40px;
+  z-index: auto;
+}
+
+.carrocelresponsivo {
+  margin: 0 auto;
+  animation: slideIn 1s forwards;
+  position: relative;
+  top: -200px
+}
+
+@keyframes slideIn {
+  to {
+    top: 0; /* move para a posição superior 0 (dentro do contêiner) */
+  }
+}
+
+
+.imgresponsivo{
+  display: none;
+}
+
+.imgSlider1 {
+  display: none;
+}
+
+.imgSlider2 {
+  display: none;
+}
+.contentmain {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.contentmain h2 { 
+  text-align: center;
+  color: #f8f8f8;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.contentmain p {
+  color: #f8f8f8;
+  text-align: center;
+  font-size: 19px;
+}
+
+.buttoncontentmain {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color:#820327;
+  font-size: 1.2rem;
+  box-shadow: none;
+  border: '#000' 1px solid;
+  color: #f8f8f8;
+  margin-bottom: 30px;
+
+}
+
+@keyframes anime-button {
+  0% {
+    transform: scale(1);
+  } 
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.buttoncontentmain:hover {
+  color: #f8f8f8;
+  background-color: #c30606;
+  transition: 0.9s;
+  animation-name: anime-button;
+  animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+.modalitiesHome {
+  display: flex;
+  align-items: center;
+  justify-content:baseline;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 87%;
+  max-width: 1280px;
+  padding-inline: 5px;
+  background-color: #000000ad;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  overflow-x: scroll;
+  border-radius: 30px 30px 5px 5px ;
+}
+
+.modalitiesHome::-webkit-scrollbar {
+  height: 6px; /* largura da barra de rolagem */
+}
+
+.modalitiesHome::-webkit-scrollbar-track {
+  background: none; /* cor de fundo do track */
+}
+
+.modalitiesHome::-webkit-scrollbar-thumb {
+  background: #f0eded; /* cor do thumb */
+  border-radius: 8px; /* borda arredondada do thumb */
+  transition: 1s ease-in-out;
+}
+
+.modalitiesHome::-webkit-scrollbar-thumb:hover {
+  background: #504e4ed5; /* cor do thumb quando hover */
+}
+
+.modalitiesDiv {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #f8f8f8;
+  font-size: 18px;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.modalities p {
+  margin-top: 20px;
+}
+
+.modalitiesimg {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 1px #f8f8f8 solid;
+  gap: 50px;
+  
+}
+
+.modalitiesimg:hover {
+  opacity: 0.5;
+}
+
+.exchange {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 30px;
+  background-color: #0d0c0c99 ;
+  border-top-left-radius:  40px;
+  border-bottom-left-radius: 40px;
+  align-items: center;
+}
+
+.exchangephotos{
+  display: block;
+  width: 700PX;
+}
+
+.exchangephotos img {
+  width: 700px;
+}
+
+.exchangetext {
+  text-align: center;
+}
+
+.exchangetext ul li {
+  list-style: none;
+  color: #f8f8f8;
+  font-size: 19px;
+}
+
+.exchangetext a {
+  color: #ea1d1d;
+  text-decoration: none;
+}
+
+.exchangetext a:hover {
+  color: #000;
+  background: #f8f8f8;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.exchange h2 {
+  text-align: center;
+  color: #f8f8f8;
+  font-size: 50px;
+}
+
+.exchange p {
+  color: #f8f8f8;
+  text-align: center;
+  font-size: 19px;
+}
+
+
+
+
+/* ------------------------------------------------ RESPONSIVO MAIN ----------------------------------*/
+
+@media (min-width: 650px) and (max-width: 1280px) {
+  .SliderDestaque img {
+    width: 90%;
+    height: 300px;
+  }
+
+  .exchange {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+    background-color: #0d0c0c99 ;
+    border-top-left-radius:  40px;
+    border-bottom-left-radius: 40px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .exchangephotos{
+    display: block;
+    text-align: right;
+  }
+  
+  .exchangephotos img {
+    width: 500px;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 1000px) {
+  .exchange {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    border-top-right-radius: 40px;
+    margin-top: 30px;
+  }
+  .exchangephotos{
+    display: flex;
+    text-align: center;
+  }
+  .exchangephotos{
+    display: block;
+    width: 100%;
+  }
+
+  .exchangephotos img {
+    width: 49%;
+  }
+
+  .exchange h2 {
+    padding: 5px;
+  }
+}
+
+
+
+@media (max-width: 650px) {
+  
+  .SliderDestaque img {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+  .contentmain {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+
+  .contentmain h2 { 
+    text-align: center;
+    color: #f8f8f8;
+    font-size: 35px;
+    margin-top: 20px;
+  }
+  
+  .contentmain p {
+    color: #f8f8f8;
+    font-size: 16px;
+  }
+
+  .buttoncontentmain {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:#820327;
+    font-size: 1.2rem;
+    box-shadow: none;
+    border: '#000' 1px solid;
+    
+  }
+
+  .modalitiesHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: #000;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+  }
+  
+  .exchange {
+    width: 100%;
+    display: block;
+    border-top-right-radius: 40px;
+    
+  }
+  
+  .exchangephotos{
+    width: 100%;
+    text-align: center;
+  }
+
+  .exchangephotos img {
+    width: 100%;
+  }
+
+  
+  .exchangetext {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .exchangetext ul li {
+    list-style: none;
+    color: #f8f8f8;
+    font-size: 19px;
+  }
+  
+  .exchangetext a {
+    color: #ea1d1d;
+    text-decoration: none;
+  }
+  
+  .exchangetext a:hover {
+    color: #000;
+    background: #f8f8f8;
+    padding: 3px;
+    border-radius: 5px;
+  }
+  
+  
+  .exchange h2 {
+    text-align: center;
+    color: #f8f8f8;
+    font-size: 50px;
+  }
+  
+  .exchange p {
+    color: #f8f8f8;
+    text-align: center;
+    font-size: 19px;
+  }
+
+  
+}

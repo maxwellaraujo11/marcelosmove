@@ -1,0 +1,436 @@
+#about .about {
+  background-color: #740707;
+  border-radius: 5px;
+}
+
+main {
+  background: #f8f8f8 center  no-repeat;
+  margin: 0 auto;
+  margin-top: 40px;
+  border: #000 1px solid;
+}
+
+.main-size {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.main-size h1 {
+  text-align: right;
+  color: #c30606;
+  font-size: 3.5rem;
+  padding: 20px 0;
+}
+
+.aboutmsg {
+  width: 300px;
+}
+
+.tituloh2 {
+  background-color: #c30606;
+  width: 150px;
+  padding: 5px;
+  color: #f8f8f8;
+  text-align: center;
+  border-radius: 2px;
+  clear: both;
+}
+
+.aboutmsg p {
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.aboutmsg h4 {
+   font-size: 20px;
+   line-height: 40px;
+   margin-top: 20px;
+   color: #c30606;
+}
+
+.rastag {
+  width: 550px;
+  border: #000 solid 2px;
+  float: right;
+  right: 30px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  box-shadow: 0 5px 20px 0;
+}
+
+.rastag h1 {
+  text-align: center;
+}
+
+.main-size img {
+  width: 300px;
+  
+}
+
+.areacentral {
+  display: flex;
+  clear: both;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.valorestitle {
+  border: #000 1px solid;
+}
+
+.valorestitle h2 {
+  margin-top: -15px;
+  margin-left: 30px;
+}
+
+.valores {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+  padding: 0 10PX;
+}
+
+.valorescontent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px 0;
+  
+}
+
+.valorescontent img {
+  width: 70px;
+  margin: 0 auto;
+}
+
+.valorescontent h4 {
+  margin: 5px;
+  color: #c30606;
+  
+}
+
+.valorescontent p {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+.valorescontent a {
+  text-decoration: none;
+  color: #c30606;
+}
+
+.valorescontent a:hover {
+  text-decoration: underline;
+}
+
+
+/*-----------------------------------------------*/
+
+
+.borderfooter {
+  clear: both;
+  margin-top: 0;
+}
+
+
+.textmain {
+  text-align:justify;
+  width: 600px;
+  padding-inline: 10px;
+}
+
+.textmain > h3 {
+  font-size: 20px;
+  font-family: Montserrat;
+}
+
+.textmain > h1 {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-family: Montserrat;
+   color: #fff;
+}
+
+.textmain > h4 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.textmain > p {
+  font-size: 20px;
+}
+
+.marcelobtn {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 20px;
+  justify-content: end;
+
+}
+
+.marcelobtn:hover {
+  background-color: #c30606;
+  color: #f8f8f8;
+}
+
+
+
+/*-----------------INICIO RESPONSIVO -------------------*/
+
+@media (min-width: 728px) and (max-width: 1280px) {
+  main {
+    width: 100%;
+  }
+
+  .main-size {
+    width: 90%;
+  }
+
+  .aboutmsg {
+    width: 300px;
+    margin: 10px 0 20px 0;
+  }
+
+  .rastag {
+    width: 450px;
+  }
+  
+  .rastag h1 {
+    text-align: center;
+
+  }
+
+  .areacentral {
+    display: block;
+    clear: both;
+    padding: 20px 0;
+  }
+
+  .imglogoabout {
+    width: 250px;
+    position: absolute;
+    top: 600px;
+    right: 20%;
+  }
+
+  .valores {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+
+
+  /*-------------------------------------------------*/
+
+  .imgmarcelo {
+    width: 350px;
+    height: 350px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-inline: none;
+    align-items: start;
+  }
+
+  .textmain {
+    text-align:justify;
+    width: 400px;
+    padding-inline: 10px;
+  }
+
+  .textmain > h3 {
+    font-size: 18px;
+    margin-bottom: none;
+  }
+ 
+  .textmain > p {
+    font-size: 16px;
+  }
+  .textmain > h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .marcelobtn {
+    margin-top: 05px;
+
+  }
+
+  .textmain > h4 {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+}
+
+@media (min-width: 651px) and (max-width: 727px) {
+  main {
+    width: 100%;
+  }
+
+  .main-size {
+    width: 90%;
+  }
+
+  .aboutmsg {
+    width: 300px;
+    margin: 10px 0 20px 0;
+  }
+
+  .rastag {
+    width: 450px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .areacentral {
+    display: block;
+    clear: both;
+    padding: 20px 0;
+  }
+
+  .imglogoabout {
+    width: 200px;
+    position: absolute;
+    top: 700px;
+    right: 15%;
+  }
+
+  .valores {
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .imgmarcelo {
+    width: 500px;
+    height: 500px;
+  }
+
+  
+}
+
+@media (max-width: 650px) {
+  .main-size {
+    width: 90%;
+  }
+
+  .main-size h1 {
+    font-size: 2.5rem;
+  }
+  
+  .aboutmsg {
+    margin-top: 20px;
+  }
+  
+  .tituloh2 {
+    background-color: #c30606;
+    width: 150px;
+    padding: 5px;
+    color: #f8f8f8;
+    text-align: center;
+    border-radius: 2px;
+    clear: both;
+  }
+  
+  .rastag {
+    width: 275px;
+    border: #000 solid 2px;
+    float: none;
+    margin-top: 30px;
+  }
+  
+  .rastag h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .imglogoabout {
+    width: 275px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  .areacentral {
+    display: block;
+    clear: both;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .valorestitle {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 300px;
+  }
+
+
+  .valores {
+    display: block;
+    width: 300px;
+    padding: 0 0;
+  }
+  
+  .valorescontent {
+    display: block;
+    flex-direction: column;
+  }
+  
+  .valorescontent img {
+    width: 80px;
+  }
+  
+  .valorescontent h4 {
+    font-size: 20px;
+    
+  }
+  
+  .valorescontent p {
+    font-size: 14px;
+  }
+  
+  
+  .valorescontent a {
+    font-size: 18px;
+  }
+
+  /*-------------------------------------------*/
+
+ 
+  .imgmarcelo {
+    width: 350px;
+    height: 350px;
+    
+  }
+
+  .textmain {
+    text-align:justify;
+    width: 350px;
+    padding-inline: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+

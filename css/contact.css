@@ -1,0 +1,291 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* --------------------------------------START IN THE MAIN ------------------------------*/
+
+
+#contact .contact {
+  background-color: #740707;
+  border-radius: 5px;
+}
+
+main {
+  max-width:1280px;
+  margin: 0 auto;
+}
+
+.box-forms {
+  flex-direction: column;
+  width: 500px;
+  border-radius: 10px;
+  float: left;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+
+.box-forms h1 {
+  color: #f8f8f8;
+  font-size: 3rem;
+}
+
+
+.box-forms p {
+  color: #f8f8f8;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-title-form {
+  display: flex;
+  width: 330px;
+  height: 40px;
+  
+}
+
+.form-contact {
+  width: 330px;
+  text-align:justify;
+  padding-inline: 10px;
+  border: #000 1px solid;
+  border-top: none;
+  padding: 10px 0 10px 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.img-aside {
+  width: 350px;
+  float: right;
+  position: absolute;
+  right:20%;
+  top: 30%;
+}
+
+.box-title-form button{
+  padding: 4px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+}
+
+.btn-work-1 {
+  width: 150px;
+  border-top-left-radius: 5px;
+  transition: .5s ease-in-out;
+}
+
+#btn-work-1  .btn-work-1 a{
+  background-color: #c30606;
+}
+
+.btn-work-1 a, .btn-work-2 a  {
+  text-decoration: none;
+  color: #820327;
+}
+
+.btn-work-2 {
+  width: 300px;
+  border-top-right-radius: 5px;
+  transition: .5s ease-in-out;
+}
+
+.btn-work-1:hover, .btn-work-2:hover {
+  background-color: #820327;
+  border: #282424 1px solid;
+}
+
+.btn-work-1 a:hover, .btn-work-2 a:hover {
+  color: #f8f8f8;
+}
+
+
+
+
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form input {
+  width: 300px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  border-bottom: #000 solid 1px;
+  font-size: 15px;
+  color: #f8f8f8;
+  padding-left: 10px;
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form label {
+  color: #f8f8f8;
+}
+
+::placeholder {
+  color: #ffffffa0;
+}
+
+.form textarea {
+  width: 300px;
+  height: 100px;
+  background-color: transparent;
+  border: #000 solid 1px;
+  font-size: 15px;
+  color: #f8f8f8;
+  padding: 5px 0 0 10px;
+  border-radius: 8px;
+  outline: none;
+  resize: none;
+}
+
+.btn-enviar {
+  width: 150px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #820327;
+  font-size: 1.2rem;
+  box-shadow: none;
+  border: #000 1px solid;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+.btn-enviar:hover {
+  color: #f8f8f8;
+  background-color: #c30606;
+}
+
+
+/*---------------------------- START THE FORM OF THE WORK WITH US -------------*/
+
+
+.form select {
+  width: 300px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  border-bottom: #000 solid 1px;
+  font-size: 15px;
+  color: #f8f8f8;
+  padding-left: 10px;
+  outline: none;
+}
+
+option {
+  width: 300px;
+  background-color: #820327;
+  border-bottom: #000 solid 2px;
+  font-size: 15px;
+  color: #f8f8f8;
+  padding-left: 10px;
+}
+
+.borderfooter {
+  margin-top: 50%;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+}
+
+
+/* ---------------------- RESPONSIVIDADE --------------------------*/ 
+
+@media (min-width: 1000px) and (max-width: 1280px) {
+  h1 {
+    margin-left: 3%;
+  }
+  
+  p {
+    margin-right: 3%;
+  }
+
+  .img-aside {
+    width: 300px;
+  }
+
+  .box-forms {
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 728px) and (max-width: 999px) {
+  h1 {
+    margin-left: 3%;
+    font-size: 2rem;
+  }
+  
+  p {
+    margin-right: 3%;
+    font-size: 1rem;
+  }
+
+  .img-aside {
+    width: 300px;
+    right: 10%;
+  }  
+
+  .box-forms {
+    display: block;
+    width: 400px;
+  }
+
+  .work-us {
+    margin-top: -95%; 
+  }
+}
+
+@media (min-width: 320px) and (max-width: 727px) {
+  h1 {
+    float: none;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  main {
+    text-align: center;
+  }
+  
+  .img-aside {
+    visibility: hidden;
+  }
+
+  .box-forms {
+    width: 90%;
+    float: none;
+    margin-left: 0;
+    margin: 0 auto;
+  }
+
+  .work-us {
+    display: block;
+
+  }
+
+  .borderfooter {
+    clear: both;
+  }
+
+  }

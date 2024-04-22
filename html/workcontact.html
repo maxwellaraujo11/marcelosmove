@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512..." crossorigin="anonymous" />
+  <!--  CSS ESTILO PADRÃO -->
+  <link href="../css/padraoGeneral.css" rel="stylesheet">
+  <!--  fIM CSS ESTILO PADRÃO -->
+
+  <link href="../css/contact.css" rel="stylesheet">
+  <link rel="icon" href="../img/logo.preto.png" type="image/x-icon">
+  <title>Marcelos Move - Contato</title>
+</head>
+<body id="contact">
+  <header>
+    <div class="desktop">
+      <img src="../img/logo.jpg" class="logo" alt="Logo Marcelos Move">
+      <div class="menu-desktop">
+          <a href="../html/home.html">Inicio</a>
+          <a href="../html/about.html">Sobre</a>
+          <a href="../html/modalities.html">Modalidades</a>
+          <a class="contact" href="../html/contact.html">Contato</a>
+          <a href="../html/equipe.html">Equipe</a>
+    </div> <!-- FIM MENU DESKTOP-->
+  
+      <button class="Navegar"> <a href="../html/index.html">  Sair </a></button>
+  
+      <i class="fas fa-bars openMenu"  onclick="openMenuMobile()"></i>
+  
+  
+    </div><!-- FIM DESKTOP -->
+  
+    <div class="menu-mobile"> 
+        <ul>
+          <li class="home"><a href="../html/home.html" class="linkbar">Inicio</a></li> 
+          <li class="sobre"><a href="../html/about.html" class="linkbar">Sobre</a></li>
+          <li class="modalities"><a href="../html/modalities.html" class="linkbar">Modalidades</a></li> 
+          <li class="contact"><a href="../html/contact.html" class="linkbar">Contato</a></li>
+          <li><a href="../html/equipe.html" class="linkbar">Equipe</a></li>
+          <button class="Navegar"> <a href="../html/index.html">  Sair </a></button>
+      </ul>
+  
+  
+      <i class="fas fa-times closeMenu" onclick="closeMenuMobile()"></i>
+    </div> <!-- FIM MENU MOBILE-->
+  </header>
+
+ 
+
+  <main>
+
+  <div class="box-forms">
+
+    <h1 class="title-h1" >Trabalhe conosco </h1>
+    <p>
+       Clique em contato para tirar duvidas. <br>
+       Clique em trabalho conosco para enviar seus dados
+    </p>
+
+    <div class="box-title-form">
+        <button class="btn-work-1"> <a href="../html/contact.html">Contato</a></button>
+        <button class="btn-work-2"> <a href="../html/workcontact.html">Trabalhe conosco</a> </button>
+    </div>
+    
+    
+    
+    <div class="form-contact">
+      <form class="form">
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Alberto">
+
+        <label for="email">Email</label>
+        <input type="text" placeholder="alberto@gmail.com" required>
+
+        <label for="phone">Celular</label>
+        <input type="number" id="phone" placeholder="81 98625-8965" required>
+
+        <label for="opcao">Qual sua area?:</label>
+        <select id="opcao" name="opcao">
+          <option value="opcao1">Ballet</option>
+          <option value="opcao2">Jazz</option>
+          <option value="opcao3">Morder/Contem.</option>
+          <option value="opcao4">Danças Hurbanas</option>
+          <option value="opcao5">Popular</option>
+          <option value="opcao6">Outros</option>
+          <!-- Adicione mais opções conforme necessário -->
+        </select>
+
+        <label for="descricao">Descrição</label>
+        <textarea name="#" id="#" cols="30" rows="10" placeholder="Mensagem"></textarea>
+        <button type="submit" class="btn-enviar"> Enviar </button>
+      </form>
+    </div> <!-- FIM WORK US-->
+  </div> <!-- -------------- FIM BOX FORMS-->
+
+  <img class="img-aside" src="../img/logo.branco.png" alt="">
+
+    
+ 
+  </main>
+  
+
+   <!--    START IN THE FOOTER -->
+   <div class="borderfooter"></div>
+  
+   <footer>
+    <div class="box-footer">
+      <div class="text-footer">
+        <h2 class="title-logo">Marcelos Move Dance School</h2>
+        <p class="text-content-footer">Aqui se aprende a amar a dança!</p>
+      </div><!-- FIM TEXT FOOTER -->
+     
+      <div class="title-links">
+        <h2 class="title-logo"> Midias Sociais </h2>
+        <div class="linkFooter">
+          <a href="https://www.youtube.com/@marcelosmovedanceschool"><i class="fab fa-youtube" style="font-size: 20px;"></i></a>
+          <a href="https://www.instagram.com/marcelosmove/"><i class="fab fa-instagram" style="font-size: 20px;"></i></a>
+          <a href="https://www.facebook.com/marcelo.jacinto.50159"><i class="fab fa-facebook" style="font-size: 25px;"></i></a>
+        </div>
+      </div>
+    </div> <!--- FIM BOX FOOTER-->
+
+      <hr>
+
+      <p class="copy-right">© Copyright 2024. Desenvolvido por <a href="">Maxwell Araujo</a></p>
+
+   </footer>
+   
+   <script src="../js/marcelos-script.js"> </script>
+</body>
+</html>

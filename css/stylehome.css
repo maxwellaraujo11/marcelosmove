@@ -311,7 +311,7 @@
 
 
 
-@media (max-width: 650px) {
+@media screen and (max-width: 650px) {
   
   .SliderDestaque img {
     width: 100%;
@@ -351,19 +351,32 @@
   }
 
   .modalitiesHome {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    border-radius: 0;
+    white-space: nowrap !important;
+    overflow-x: auto !important;
     width: 100%;
-    background-color: #000;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    
   }
   
+
+  .modalitiesHome::-webkit-scrollbar {
+    height: 10px; /* largura da barra de rolagem */
+  }
+  
+  .modalitiesHome::-webkit-scrollbar-track {
+    background: none; /* cor de fundo do track */
+  }
+  
+  .modalitiesHome::-webkit-scrollbar-thumb {
+    background: #f0eded; /* cor do thumb */
+    border-radius: 8px; /* borda arredondada do thumb */
+    transition: 1s ease-in-out;
+  }
+  
+  .modalitiesHome::-webkit-scrollbar-thumb:hover {
+    background: #504e4ed5; /* cor do thumb quando hover */
+  }
+
+
   .exchange {
     width: 100%;
     display: block;
@@ -419,3 +432,4 @@
 
   
 }
+

@@ -283,6 +283,7 @@
   }
 }
 
+/* CORREÇÕES PARA AS PARTES DE EXCHANGE */
 @media (min-width: 651px) and (max-width: 1000px) {
   .exchange {
     width: 90%;
@@ -307,6 +308,9 @@
   .exchange h2 {
     padding: 5px;
   }
+
+  
+
 }
 
 
@@ -360,6 +364,7 @@
 
   .modalitiesHome::-webkit-scrollbar {
     height: 10px; /* largura da barra de rolagem */
+    
   }
   
   .modalitiesHome::-webkit-scrollbar-track {
@@ -370,10 +375,12 @@
     background: #f0eded; /* cor do thumb */
     border-radius: 8px; /* borda arredondada do thumb */
     transition: 1s ease-in-out;
+    cursor: grab;
   }
   
   .modalitiesHome::-webkit-scrollbar-thumb:hover {
     background: #504e4ed5; /* cor do thumb quando hover */
+    transform: scale(1.2);
   }
 
 

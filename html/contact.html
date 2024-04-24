@@ -68,19 +68,22 @@
       </div>
     
       <div class="form-contact">
-        <form class="form">
+        <form class="form" action="https://api.staticforms.xyz/submit" method="post">
           <label for="nome">Nome</label>
-          <input type="text" placeholder="Ana Karolina">
+          <input type="text" name="name" placeholder="Ana Karolina" required>
 
           <label for="email">Email</label>
-          <input type="text" placeholder="anakar@hotmail.com" required>
+          <input type="text" name="email" placeholder="anakar@hotmail.com" required>
 
           <label for="assunto">Assunto</label>
-          <input type="text" placeholder="Modalidades/Horarios" required>
+          <input type="text" name="asunto" placeholder="Modalidades/Horarios" required>
 
           <label for="descricao">Descrição</label>
-          <textarea name="#" id="#" cols="30" rows="10" placeholder="Gostaria de obter informações..."></textarea>
+          <textarea name="message" id="#" cols="30" rows="10" placeholder="Gostaria de obter informações..." required></textarea>
           <button type="submit" class="btn-enviar"> Enviar </button>
+
+          <input type="hidden" name="accessKey" value="f7d1283f-888a-47b6-a94d-a684d2e4ccb0"> 
+          <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/html/confirmacao.html">
         </form>
       </div>  <!-- ----- FIM FORM CONTACT-->
     </div> <!-- FIM BOX FORM -->

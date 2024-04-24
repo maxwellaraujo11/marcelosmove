@@ -3,6 +3,73 @@
   padding: 0;
 }
 
+body {
+  height: 100vh;
+  position: relative;
+}
+
+.section-enviado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: confirm 1s forwards;
+  filter: blur(15px);
+}
+
+@keyframes confirm {
+  to {
+    top: 45%; /* move para a posição superior 0 (dentro do contêiner) */
+    filter: blur(0px);
+  }
+}
+
+.FormEnviado-title {
+  font-size: 2rem;
+  color: #f8f8f8;
+  text-align: center;
+}
+
+.buttoncontentmain {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color:#820327;
+  font-size: 1.2rem;
+  box-shadow: none;
+  border: '#000' 1px solid;
+  color: #f8f8f8;
+  margin-bottom: 30px;
+  text-decoration: none;
+
+}
+
+@keyframes anime-button {
+  0% {
+    transform: scale(1);
+  } 
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.buttoncontentmain:hover {
+  color: #f8f8f8;
+  background-color: #c30606;
+  transition: 0.9s;
+  animation-name: anime-button;
+  animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 
 /* --------------------------------------START IN THE MAIN ------------------------------*/
 

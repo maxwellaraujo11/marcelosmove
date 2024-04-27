@@ -5,6 +5,23 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* FORMATAÇAO DE ANIMAÇÕES */
+.slider-left {
+  opacity: 0;
+  filter: blur(15px);
+  transition: all 1s;
+  transform:  translateX(-100%);
+}
+
+.show {
+  opacity: 1;
+  transition: all 1s;
+  filter: blur(0);
+  transform:  translateX(0);
+}
+
+/* FIM DE ANIMAÇÕES */
+
 body  {
   background-image: linear-gradient(to top, #000000, #420f1d, #820327, #c20023, #ff0000);
   height: 100%;

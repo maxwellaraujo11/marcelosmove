@@ -54,7 +54,7 @@
 
   <main>
     
-    <div class="box-forms">
+    <div class="box-forms slider-left">
 
       <h1>Contato </h1>
       <p>
@@ -62,28 +62,28 @@
          Clique em trabalho conosco para enviar seus dados
       </p>
   
-      <div class="box-title-form">
+      <div class="box-title-form ">
         <button class="btn-work-1" id="btn-work-1"> <a href="../html/contact.html">Contato</a></button>
         <button class="btn-work-2" id="btn-work-2"> <a href="../html/workcontact.html">Trabalhe conosco</a> </button>
       </div>
     
-      <div class="form-contact">
-        <form class="form" action="https://api.staticforms.xyz/submit" method="post">
+      
+        <div class="form-contact">
+        <form class="form" action="https://formsubmit.co/maxwellaraujo11@hotmail.com" method="POST">
           <label for="nome">Nome</label>
-          <input type="text" name="name" placeholder="Ana Karolina" required>
+          <input type="text" name="nome" placeholder="Ana Karolina" required>
 
           <label for="email">Email</label>
-          <input type="text" name="email" placeholder="anakar@hotmail.com" required>
+          <input type="email" name="email" placeholder="anakar@hotmail.com" required>
 
           <label for="assunto">Assunto</label>
-          <input type="text" name="asunto" placeholder="Modalidades/Horarios" required>
+          <input type="text" name="assunto" placeholder="Modalidades/Horarios" required>
 
           <label for="descricao">Descrição</label>
-          <textarea name="message" id="#" cols="30" rows="10" placeholder="Gostaria de obter informações..." required></textarea>
+          <textarea name="menssagem" id="#" cols="30" rows="10" placeholder="Gostaria de obter informações..." required></textarea>
           <button type="submit" class="btn-enviar"> Enviar </button>
 
-          <input type="hidden" name="accessKey" value="f7d1283f-888a-47b6-a94d-a684d2e4ccb0"> 
-          <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/html/confirmacao.html">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5501/html/confirmacao.html">
         </form>
       </div>  <!-- ----- FIM FORM CONTACT-->
     </div> <!-- FIM BOX FORM -->
@@ -125,5 +125,6 @@
    </footer>
    
    <script src="../js/marcelos-script.js"> </script>
+   <script src="../js/scrollAnimations.js"></script>
 </body>
 </html>

@@ -49,7 +49,7 @@
 
   <main>
 
-  <div class="box-forms">
+  <div class="box-forms slider-left">
 
     <h1 class="title-h1" >Trabalhe conosco </h1>
     <p>
@@ -65,18 +65,18 @@
     
     
     <div class="form-contact">
-      <form class="form">
+      <form class="form" method="post">
         <label for="nome">Nome</label>
-        <input type="text" placeholder="Alberto">
+        <input type="text" name="nome" placeholder="Alberto" required>
 
         <label for="email">Email</label>
-        <input type="text" placeholder="alberto@gmail.com" required>
+        <input type="text" name="email" placeholder="alberto@gmail.com" required>
 
         <label for="phone">Celular</label>
-        <input type="number" id="phone" placeholder="81 98625-8965" required>
+        <input type="number" name="telefone" placeholder="81 98625-8965" required>
 
         <label for="opcao">Qual sua area?:</label>
-        <select id="opcao" name="opcao">
+        <select id="opcao" name="" required>
           <option value="opcao1">Ballet</option>
           <option value="opcao2">Jazz</option>
           <option value="opcao3">Morder/Contem.</option>
@@ -87,10 +87,10 @@
         </select>
 
         <label for="descricao">Descrição</label>
-        <textarea name="#" id="#" cols="30" rows="10" placeholder="Mensagem"></textarea>
+        <textarea name="#" id="#" name="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
         <button type="submit" class="btn-enviar"> Enviar </button>
       </form>
-    </div> <!-- FIM WORK US-->
+    </div> <!-- FIM FORM-CONTACT-->
   </div> <!-- -------------- FIM BOX FORMS-->
 
   <img class="img-aside" src="../img/logo.branco.png" alt="">
@@ -127,5 +127,6 @@
    </footer>
    
    <script src="../js/marcelos-script.js"> </script>
+   <script src="../js/scrollAnimations.js"></script>
 </body>
 </html>

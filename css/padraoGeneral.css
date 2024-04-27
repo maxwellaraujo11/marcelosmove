@@ -6,6 +6,12 @@
 }
 
 /* FORMATAÇAO DE ANIMAÇÕES */
+@keyframes slideIn {
+  to {
+    top: 0; /* move para a posição superior 0 (dentro do contêiner) */
+  }
+}
+
 .slider-left {
   opacity: 0;
   filter: blur(15px);

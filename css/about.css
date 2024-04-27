@@ -22,6 +22,10 @@ main {
   padding: 20px 0;
 }
 
+.main-size .title-sobre {
+  animation: slideIn 1s forwards;
+}
+
 .aboutmsg {
   width: 300px;
 }

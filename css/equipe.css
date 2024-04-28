@@ -330,6 +330,10 @@
 /* ----------------- MAX 500PX ------------------*/ 
 
 @media (max-width: 500px) {
+
+  .box-director {
+    height: 800px;
+  }
   
   .box1:hover img {
     transform: translate(270px, 220px);

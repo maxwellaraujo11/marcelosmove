@@ -55,6 +55,10 @@
   font-size: 19px;
 }
 
+.contentmain a {
+  text-decoration: none;
+}
+
 .buttoncontentmain {
   display: block;
   margin: 0 auto;

@@ -8,24 +8,55 @@ h1 {
     color: #dedede;
     font: 35px;
     text-align: center;
+    margin-top: 100px;
 }
 
 .conteiner-img {
     display: flex;
     flex-direction: row;
     width: 80%;
+    height: 600px;
     margin: 0 auto;
     gap: 40px;
-    margin-bottom: 40px;
     margin-top: 100px;
+    position: relative;
 }
 
-.conteiner-img p {
+.conteiner-img .img-fachada {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: last baseline;
+    gap: 20px;
+    
+}
+
+.conteiner-img .img-fachada .img-2 {
+    width: 100%;
+    border-radius: 10px;
+    height: 280px;
+}
+
+.conteiner-img p, .conteiner-img-3 p {
     font-size: 24px;
     color: #dedede;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
 }
 
-.conteiner-img p span {
+.conteiner-img p img {
+    width: 48%;
+    height: 280px;
+    border-radius: 10px;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
+.conteiner-img  p span, .conteiner-img-3 p span {
     color: #dedede;
     font-size: 28px;
     font-weight: 800;
@@ -34,13 +65,58 @@ h1 {
 }
 
 
-
-.conteiner-img img {
-    width: 60%;
-    border-radius: 10px;
-
-}
-
 .conteiner-img-2 {
-    
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80%;
+    margin: 0 auto;
+    gap: 40px;
+    margin-bottom: 40px;
+    margin-top: 100px;
 }
+
+.conteiner-img-2 .img-fachada {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.conteiner-img-2 .img-fachada img {
+    width: 48%;
+    border-radius: 10px;
+}
+
+.conteiner-img-2 p {
+    width: 100%;
+    font-size: 24px;
+    color: #dedede;
+    text-align: center;
+
+}
+
+.conteiner-img-2 p span {
+    color: #dedede;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.conteiner-img-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+.conteiner-img-3 img {
+    width: 48%;
+    border-radius: 10px;
+}
+
+
+
+

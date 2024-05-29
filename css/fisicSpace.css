@@ -118,5 +118,72 @@ h1 {
 }
 
 
+@media (max-width: 600px) {
 
+    h1 {
+        color: #dedede;
+        font: 35px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    /* IMAGENS FACHADAS */
+
+    .conteiner-img {
+        flex-direction: column-reverse;
+        width: 90%;
+        height: auto; 
+        gap: 40px;
+        margin-top: 40px;
+    }
+    
+    .conteiner-img .img-fachada {
+        width: 100%;
+    }
+    
+    .conteiner-img .img-fachada .img-2 {
+        width: 100%;
+    }
+    
+    .conteiner-img p, .conteiner-img-3 p {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .conteiner-img p img {
+       display: none;
+    }
+    
+    /* IMAGENS INTERNAS */
+    
+    .conteiner-img-2 {
+        width: 90%;
+    }
+    
+    .conteiner-img-2 .img-fachada {
+        flex-direction: column;
+    }
+    
+    .conteiner-img-2 .img-fachada img {
+        width: 100%;
+    }
+
+    /* IMAGENS SALA DE DANÇA*/
+
+    .conteiner-img-3 {
+        flex-direction: column-reverse;
+        width: 90%;
+       
+    }
+    
+    .conteiner-img-3 img {
+        width: 100%;
+    }
+    
+    
+
+
+
+
+}
 

@@ -14,6 +14,8 @@ const overlay = document.getElementById("overlay");
 const titleCapa = document.getElementById("h1-title")
 const imgcapa = document.getElementById("imgcapa")
 
+//------------------------------------------------------------------------------//
+
 
 capa.addEventListener('mouseenter', () => {
   overlay.style.opacity = '1'; // Mostra o elemento quando o mouse entra

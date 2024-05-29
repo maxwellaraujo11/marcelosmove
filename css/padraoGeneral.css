@@ -19,7 +19,14 @@
   transform:  translateX(-100%);
 }
 
-.show {
+.slider-right {
+  opacity: 0;
+  filter: blur(15px);
+  transition: all 1s;
+  transform:  translateX(100px);
+}
+
+.show, .show2 {
   opacity: 1;
   transition: all 1s;
   filter: blur(0);
@@ -27,6 +34,17 @@
 }
 
 /* FIM DE ANIMAÇÕES */
+
+
+/* WHATS FIXO */
+.whatsFixo {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+}
+.whatsFixo img{
+  width: 60px;
+}
 
 body  {
   background-image: linear-gradient(to top, #000000, #420f1d, #820327, #c20023, #ff0000);

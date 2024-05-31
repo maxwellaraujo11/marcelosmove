@@ -133,6 +133,10 @@
   background: #504e4ed5; /* cor do thumb quando hover */
 }
 
+.modalitiesHome a  {
+  text-decoration: none;
+}
+
 .modalitiesDiv {
   
   display: flex;
@@ -349,6 +353,8 @@
     background: #504e4ed5; /* cor do thumb quando hover */
     transform: scale(1.2);
   }
+
+  
 
 
   .exchange {

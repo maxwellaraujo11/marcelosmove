@@ -23,7 +23,7 @@
   opacity: 0;
   filter: blur(15px);
   transition: all 1s;
-  transform:  translateX(100px);
+  transform:  translateX(20px);
 }
 
 .show, .show2 {

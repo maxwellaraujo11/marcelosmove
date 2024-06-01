@@ -298,10 +298,20 @@
     border-radius: 5px;
   }
 
+  .espaco-grade {
+    flex-direction: column;
+  }
+
+
   .contentmain {
+    width: 90%;
     display: block;
     margin: 0 auto;
     margin-top: 25px;
+  }
+
+  .grade-aulas {
+    width: 90%;
   }
 
   .contentmain h2 { 
@@ -327,6 +337,9 @@
     
   }
 
+
+
+  
   .modalitiesHome {
     border-radius: 0;
     overflow-x: scroll !important;

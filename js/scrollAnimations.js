@@ -33,3 +33,5 @@ const slideright = document.querySelectorAll(".slider-right")
 
 
 slideright.forEach((element) => secondanimation.observe(element))
+
+

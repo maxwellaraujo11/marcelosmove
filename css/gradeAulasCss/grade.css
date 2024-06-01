@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+summary{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+}
+
+
+
+summary i {
+    font-size: 12px;
+    color: #212020;
+}
+
+.corpo-pagina {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #dedede;
+    margin-top: 40px;
+    border-radius: 3px;
+}
+
+.titulo-modalidade {
+    display: flex;
+    border-radius: 3px;
+}
+
+.item-modalidade {
+    text-align: center;
+}
+
+
+
+.titulo-modalidade[open] .item-modalidade i, .turno[open] .item-turno i {
+    transform: rotate(90deg);
+    transition: ease-in-out .5s;
+}
+
+.item-turno {
+    background-color: #752020;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #dedede;
+}
+
+.item-turno span {
+    width: 95%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.item-turno i {
+    color: #dedede;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+table thead {
+    background-color: #db1010;
+}
+
+table thead tr th {
+    color: #dedede;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+}

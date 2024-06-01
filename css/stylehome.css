@@ -22,10 +22,6 @@
 }
 
 
-
-
-
-
 .imgresponsivo{
   display: none;
 }
@@ -37,39 +33,44 @@
 .imgSlider2 {
   display: none;
 }
-.contentmain {
-  max-width: 1280px;
-  margin: 0 auto;
+
+.espaco-grade {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 87%;
+  margin: 40px auto;
 }
 
-.contentmain h2 { 
+
+.contentmain, .grade-aulas {
+  width: 47%;
   text-align: center;
+}
+
+.contentmain h2, .grade-aulas h2 { 
   color: #f8f8f8;
-  font-size: 50px;
+  font-size: 2rem;
   margin-top: 20px;
 }
 
-.contentmain p {
-  color: #f8f8f8;
-  text-align: center;
-  font-size: 19px;
-}
 
-.contentmain a {
+.contentmain a, .grade-aulas a {
   text-decoration: none;
 }
 
 .buttoncontentmain {
   display: block;
-  margin: 0 auto;
-  width: 150px;
-  padding: 10px;
+  width: 170px;
+  padding: 5px 10px;
   border-radius: 10px;
   background-color:#820327;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   box-shadow: none;
   border: '#000' 1px solid;
   color: #f8f8f8;
+  margin: 0 auto;
   margin-bottom: 30px;
 
 }

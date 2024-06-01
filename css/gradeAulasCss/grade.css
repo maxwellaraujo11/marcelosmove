@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
-}
+
 
 summary{
     list-style: none;
@@ -29,7 +27,9 @@ summary i {
     background-color: #dedede;
     margin-top: 40px;
     border-radius: 3px;
+    margin-bottom: 100px;
 }
+
 
 .titulo-modalidade {
     display: flex;
@@ -38,6 +38,7 @@ summary i {
 
 .item-modalidade {
     text-align: center;
+    border-bottom: #212020 1px solid;
 }
 
 
@@ -48,11 +49,12 @@ summary i {
 }
 
 .item-turno {
-    background-color: #752020;
+    background-color: #302f2fe2;
     text-align: center;
     display: flex;
     align-items: center;
     color: #dedede;
+    border-bottom: 1px solid #dedede ;
 }
 
 .item-turno span {
@@ -69,8 +71,64 @@ table {
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    color: #dedede;
 }
 
+.baby {
+    background-color: #f043d0;
+}
+
+.basico {
+    background-color: #a3413a;
+}
+
+.intermediario {
+    background-color: #a01313;
+}
+
+.infanto-juvenil {
+    background-color:#e25b5b ;
+}
+
+.adulto {
+    background-color: #e38383;
+}
+
+.lady {
+    background-color: #421111;
+}
+
+.jazz-kids {
+    background-color: #501777;
+}
+
+.jazz-modern {
+    background-color: #774f4f;
+}
+
+.marcelos-move {
+    background-color: #db1010;
+}
+
+.yoga {
+    background-color: #156a49;
+}
+
+.chair {
+    background-color: #826435;
+}
+
+.gr {
+    background-color: #103879;
+}
+
+.popular {
+    background-color: #2c1ca9;
+}
+
+.hip-hop {
+    background-color: #cac116;
+}
 table thead {
     background-color: #db1010;
 }
@@ -78,9 +136,7 @@ table thead {
 table thead tr th {
     color: #dedede;
 }
-
-
-footer {
-    position: absolute;
-    bottom: 0;
+th, td {
+    border: 1px solid #dedede;
 }
+

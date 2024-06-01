@@ -5,6 +5,11 @@
 }
 
 
+body  {
+    background:  #820327;
+    max-height: 100%;
+    
+}
 
 summary{
     list-style: none;
@@ -12,6 +17,7 @@ summary{
     justify-content: space-between;
     align-items: center;
     padding-inline: 10px;
+    font-size: 1.6rem;
 }
 
 
@@ -21,8 +27,14 @@ summary i {
     color: #212020;
 }
 
+h2 {
+    color: #dedede;
+    text-align: center;
+    margin-top: 100px;
+}
+
 .corpo-pagina {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     background-color: #dedede;
     margin-top: 40px;
@@ -129,6 +141,14 @@ table {
 .hip-hop {
     background-color: #cac116;
 }
+
+.pilates {
+    background-color: #229f6f;
+}
+
+.latinas {
+    background-color: #e25b5b;
+}
 table thead {
     background-color: #db1010;
 }
@@ -140,3 +160,9 @@ th, td {
     border: 1px solid #dedede;
 }
 
+
+@media (max-width: 600px) {
+    .corpo-pagina {
+        width: 95%;
+    }
+}

@@ -71,9 +71,9 @@ body  {
 
 /* ------------------------- COMEÇANDO O HEADER ---------------------*/
 header {
-  width: 90%;
+  width: 87%;
+  display: block;
   margin: 0 auto;
-  padding-inline: 3%;
   margin-top: 10px;
   position: relative;
   top: -100px;
@@ -86,27 +86,37 @@ header {
   }
 }
 
+.title-links {
+  display: block;
+  position: absolute;
+  right: 0;
+}
+
 .desktop {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  margin-left: 30px;
 }
 
+
 .logo{
-  width: 80px;
-  height: 80px;
-  border-radius: 5px;
-  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 200px;
+  height: 160px;
+  
 }
 
 .menu-desktop {
-  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: ease-in-out .5s;
+  margin: 0 auto;
 }
 
 .menu-desktop:hover a {
@@ -145,13 +155,18 @@ header .desktop .menu-desktop a::before {
 header .desktop .menu-desktop a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
-
 }
 
 
+.fa-facebook {
+  color: #3924dd;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+}
 
-
-
+.fa-instagram {
+  color: #f8f8f8;
+}
 
 .menu-mobile {
   display: none;
@@ -208,7 +223,7 @@ header .desktop .menu-desktop a:hover::before {
 
 }
 
-.menu-desktop i {
+.menu-desktop .mobile {
   display: none;
 }
 
@@ -240,7 +255,7 @@ header .desktop .menu-desktop a:hover::before {
   margin: 0 auto;
 }
 
-.desktop i {
+.desktop .mobile {
   display: none;
 }
 

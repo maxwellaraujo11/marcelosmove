@@ -266,7 +266,7 @@ header .desktop .menu-desktop a:hover::before {
 
 footer {
   width: 100%;
-  height:  100%;
+  height:  100% !important;
   background-color: #f8f8f8;
   padding-top: 100px;
   padding-bottom: 40px;
@@ -281,7 +281,7 @@ footer {
 
 .title-logo {
   font-size: 1.3rem;
-  color: #0f0f0f;
+  color: #0f0f0f !important; 
 }
 
 .text-content-footer {
@@ -311,6 +311,7 @@ footer {
 
 .form-contact h2 {
   text-align: center;
+  color: #0c0303 !important;
 }
 
 .form {
@@ -373,6 +374,14 @@ footer p a {
 footer p a:hover {
   border-bottom: solid 2px #000000;
   transform: scale(1.1);
+}
+
+.credits {
+  margin-top: 40px;
+}
+
+.credits p {
+  color: #414141;
 }
 
 

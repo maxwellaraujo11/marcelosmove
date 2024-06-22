@@ -11,7 +11,7 @@ main {
 }
 
 .main-size {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -20,6 +20,7 @@ main {
   color: #c30606;
   font-size: 3.5rem;
   padding: 20px 0;
+  padding-right: 5%;
 }
 
 .main-size .title-sobre {
@@ -27,13 +28,14 @@ main {
 }
 
 .aboutmsg {
-  width: 300px;
+  width: 50%;
 }
 
 .tituloh2 {
   background-color: #c30606;
   width: 150px;
   padding: 5px;
+  margin-left: 5%;
   color: #f8f8f8;
   text-align: center;
   border-radius: 2px;
@@ -44,6 +46,7 @@ main {
   margin-top: 10px;
   text-align: justify;
   font-size: 18px;
+  margin-left: 5%;
 }
 
 .aboutmsg h4 {
@@ -61,14 +64,56 @@ main {
   border-top-right-radius: 100px;
   border-bottom-left-radius: 100px;
   box-shadow: 0 5px 20px 0;
+  margin-right: 5%;
 }
 
 .rastag h1 {
   text-align: center;
 }
 
+.cursos {
+  clear: both;
+  margin-left: 5%;
+}
+
+
+
+.box-formations {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-cursos {
+  width: 33.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  background-color: #a9a9a9;
+}
+
+.box-cursos-text {
+  width: 50%;
+}
+
+.box-cursos-text h4 {
+  color: #f8f8f8cc;
+}
+
+.box-cursos-text p {
+  color: #343434;
+  font-size: 16px;
+  padding-inline: 5px;
+}
+
+.box-cursos .img-fomation {
+  width: 50%;
+  height: 422px;
+  
+}
+
 .main-size img {
-  width: 300px;
+  width: 40%;
   
 }
 
@@ -83,6 +128,7 @@ main {
 
 .valorestitle {
   border: #000 1px solid;
+  width: 50%;
 }
 
 .valorestitle h2 {
@@ -92,13 +138,15 @@ main {
 
 .valores {
   display: flex;
-  width: 450px;
+  flex-direction: row;
+  width: 100%;
   justify-content: space-between;
   padding: 0 10PX;
 }
 
 .valorescontent {
   display: flex;
+  width: 32%;
   flex-direction: column;
   text-align: center;
   padding: 10px 0;
@@ -188,6 +236,9 @@ main {
   color: #f8f8f8;
 }
 
+.credits {
+  text-align: center;
+}
 
 
 /*-----------------INICIO RESPONSIVO -------------------*/

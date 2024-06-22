@@ -17,34 +17,47 @@
 </head>
 <body id="pageModalities">
   <header>
-    <div class="desktop">
-      <img src="../img/logo.jpg" class="logo" alt="Logo Marcelos Move">
-      <div class="menu-desktop">
-          <a href="../index.html">Inicio</a>
-          <a href="../html/about.html">Sobre</a>
-          <a class="pageModalities" href="../html/modalities.html">Modalidades</a>
-          <a href="../html/contact.html">Contato</a>
-          <a href="../html/equipe.html">Equipe</a>
-    </div> <!-- FIM MENU DESKTOP-->
+    <div class="title-links">
+      <div class="linkFooter">
+        <a href="https://www.youtube.com/@marcelosmovedanceschool"><i class="fab fa-youtube midias" style="font-size: 25px; color: #f8f8f8;"></i></a>
+        <a href="https://www.facebook.com/marcelo.jacinto.50159"><i class="fab fa-facebook midias" style="font-size: 25px; color: #4839b9;"></i></a>
+        <a href="https://www.instagram.com/marcelosmove/"><i class="fab fa-instagram midias" style="font-size: 25px; color: #f8f8f8;"></i></a>
+        <a href="#"><i class="fab fa-whatsapp midias" style="font-size: 25px; color: #57c64f;"></i></a>
+      </div>
+    </div>
+
+    <img src="/img/logos/logo2.png" class="logo" alt="Logo Marcelos Move">
+    
+
+  <div class="desktop">
+    <div class="menu-desktop">
+        <a class="home" href="/index.html">Inicio</a>
+        <a href="../html/about.html">Sobre</a>
+        <a href="../html/modalities.html">Modalidades</a>
+        <a href="../html/equipe.html">Equipe</a>
+  </div> <!-- FIM MENU DESKTOP-->
+    <i class="fas fa-bars openMenu mobile"  onclick="openMenuMobile()"></i>
+
+  </div><!-- FIM DESKTOP -->
+
   
-      <i class="fas fa-bars openMenu"  onclick="openMenuMobile()"></i>
+
   
-  
-    </div><!-- FIM DESKTOP -->
-  
-    <div class="menu-mobile"> 
-      <a class="home" href="../index.html">Inicio</a>
-      <a href="../html/about.html">Sobre</a>
-      <a href="../html/modalities.html">Modalidades</a>
-      <a href="../html/contact.html">Contato</a>
-      <a href="../html/equipe.html">Equipe</a>
-  </ul>
+
+  <div class="menu-mobile"> 
+        <a class="home" href="/index.html">Inicio</a>
+        <a href="../html/about.html">Sobre</a>
+        <a href="../html/modalities.html">Modalidades</a>
+        <a href="../html/equipe.html">Equipe</a>
+    </ul>
 
 
-  <i class="fas fa-times closeMenu" onclick="closeMenuMobile()"></i>
-</div> <!-- FIM MENU MOBILE-->
+    <i class="fas fa-times closeMenu mobile" onclick="closeMenuMobile()"></i>
+  </div> <!-- FIM MENU MOBILE-->
+
   
-  </header>
+
+</header>
 
   <main>
 
@@ -187,20 +200,30 @@
 
   <footer>
     <div class="box-footer">
-      <div class="text-footer">
+      <div class="text-footer slider-left">
         <h2 class="title-logo">Marcelos Move Dance School</h2>
         <p class="text-content-footer">Aqui se aprende a amar a dança!</p>
-        <p class="text-content-footer"><i class="fa-regular fa-location-dot" style="margin-top: 10px;"></i> Rua: Felix de Brito Melo, <br> 890, Boa viagem - Recife-PE </p>
+        <p class="text-content-footer">
+          <i class="fa-regular fa-location-dot" style="margin-top: 10px;"></i> Rua: Felix de Brito Melo,
+          <br> 890, Boa viagem - Recife-PE 
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.8570504976256!2d-34.90163122544075!3d-8.116034081214343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1faec9f83db5%3A0xf8e6e4f43998a28a!2sR.%20F%C3%A9lix%20de%20Brito%20e%20Melo%2C%20890%20-%20Boa%20Viagem%2C%20Recife%20-%20PE%2C%2051020-260!5e0!3m2!1spt-BR!2sbr!4v1718656918488!5m2!1spt-BR!2sbr" width="400" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div><!-- FIM TEXT FOOTER -->
-     
-      <div class="title-links">
-        <h2 class="title-logo"> Midias Sociais </h2>
-        <div class="linkFooter">
-          <a href="https://www.youtube.com/@marcelosmovedanceschool"><i class="fab fa-youtube" style="font-size: 20px;"></i></a>
-          <a href="https://www.instagram.com/marcelosmove/"><i class="fab fa-instagram" style="font-size: 20px;"></i></a>
-          <a href="https://www.facebook.com/marcelo.jacinto.50159"><i class="fab fa-facebook" style="font-size: 25px;"></i></a>
-        </div>
-      </div>
+
+      <div class="box-forms slider-right">
+
+        <div class="form-contact">
+          <h2>Contato</h2>
+          <form class="form" action=""​ method="POST">
+            <input type="text" name="nome" placeholder="Nome*" required>
+            <input type="tel" name="nome" placeholder="Telefone*" required>
+            <input type="email" name="email" placeholder="Email*" required>
+            <textarea name="menssagem" id="#" cols="30" rows="8" placeholder="Mensagem*" required></textarea>
+            <button type="submit" class="btn-enviar"> Enviar </button>
+          </form>
+        </div>  <!-- ----- FIM FORM CONTACT-->
+    </div> <!-- FIM BOX FORM -->
+
     </div> <!--- FIM BOX FOOTER-->
 
       <hr>
@@ -208,6 +231,7 @@
       <p class="copy-right">© Copyright 2024. Desenvolvido por <a href="">Maxwell Araujo</a></p>
 
    </footer>
+
  
   <script src="../js/marcelos-script.js"> </script>
   <script src="../js/scrollAnimations.js"></script>

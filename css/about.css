@@ -232,27 +232,49 @@ main {
 
 /*-----------------INICIO RESPONSIVO -------------------*/
 
-@media (min-width: 728px) and (max-width: 1280px) {
+@media (min-width: 901px) and (max-width: 1280px) {
   main {
     width: 100%;
   }
 
   .main-size {
-    width: 90%;
+    width: 100%;
   }
 
   .aboutmsg {
-    width: 300px;
-    margin: 10px 0 20px 0;
+    padding-left: 5%;
+    width: 70%;
   }
 
   .rastag {
     width: 450px;
+    float: left;
+    position: relative;
+    left: 8%;
+    margin-top: 50px;
+
   }
   
   .rastag h1 {
     text-align: center;
+  }
 
+  .box-formations {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .cursos {
+    text-align: center;
+  }
+
+  .box-cursos {
+    width: 33.2%;
+    height: 422px;
+    margin-top: 20px;
   }
 
   .areacentral {
@@ -264,8 +286,13 @@ main {
   .imglogoabout {
     width: 250px;
     position: absolute;
-    top: 600px;
-    right: 20%;
+    top: 550px;
+    right: 10%;
+  }
+
+  .valorestitle {
+    margin: 0 auto;
+    margin: 100px auto; 
   }
 
   .valores {
@@ -321,7 +348,7 @@ main {
 
 }
 
-@media (min-width: 651px) and (max-width: 727px) {
+@media (min-width: 701px) and (max-width: 900px) {
   main {
     width: 100%;
   }
@@ -331,14 +358,45 @@ main {
   }
 
   .aboutmsg {
-    width: 300px;
+    width: 90%;
     margin: 10px 0 20px 0;
+    margin-top: 20px;
+  }
+
+  .aboutmsg p {
+    text-align: left;
   }
 
   .rastag {
     width: 450px;
     float: none;
-    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+  .box-formations {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .box-cursos {
+    width: 50%;
+    height: 422px;
+    margin-top: 20px;
+  }
+  
+  .box-cursos-text {
+    width: 50%;
+  }
+  
+  .box-cursos-text p {
+    font-size: .8rem;
+  }
+  
+  .box-cursos .img-fomation {
+    width: 50%;
+    height: 422px;
   }
 
   .areacentral {
@@ -351,7 +409,13 @@ main {
     width: 200px;
     position: absolute;
     top: 700px;
-    right: 15%;
+    right: 10%;
+  }
+
+  .valorestitle {
+    width: 100%;
+    margin: 50px auto;
+    
   }
 
   .valores {
@@ -367,7 +431,7 @@ main {
   
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
   .main-size {
     width: 90%;
   }

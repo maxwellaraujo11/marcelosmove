@@ -7,6 +7,7 @@
 
 .SliderDestaque img {
   width: 87%;
+  max-width: 1600px;
   height: 400px;
   margin: 0 auto;
   border-radius: 10px;
@@ -40,12 +41,14 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  max-width: 1700px;
   margin: 40px auto;
 }
 
 
 .contentmain, .grade-aulas {
   width: 100%;
+  max-width: 1700px;
   height: 500px;
   text-align: center;
   display: flex;
@@ -134,78 +137,11 @@
 }
 
 
-.modalitiesHome {
-  display: flex;
-  align-items: flex-start;
-  justify-content:baseline;
-  gap: 20px;
-  flex-wrap: nowrap;
-  margin: 0 auto;
-  margin-top: 20px;
-  width: 87%;
-  max-width: 1280px;
-  padding-inline: 5px;
-  background-color: #000000ad;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  overflow-x: scroll;
-  border-radius: 30px 30px 5px 5px ;
-  text-align: center;
-}
-
-
-.modalitiesHome::-webkit-scrollbar {
-  height: 6px; /* largura da barra de rolagem */
-}
-
-.modalitiesHome::-webkit-scrollbar-track {
-  background: none; /* cor de fundo do track */
-}
-
-.modalitiesHome::-webkit-scrollbar-thumb {
-  background: #f0eded; /* cor do thumb */
-  border-radius: 8px; /* borda arredondada do thumb */
-  transition: 1s ease-in-out;
-}
-
-.modalitiesHome::-webkit-scrollbar-thumb:hover {
-  background: #504e4ed5; /* cor do thumb quando hover */
-}
-
-.modalitiesHome a  {
-  text-decoration: none;
-}
-
-.modalitiesDiv {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: #f8f8f8;
-  font-size: 18px;
-  gap: 10px;
-  margin: 0 auto;
-}
-
-.modalities p {
-  margin-top: 20px;
-}
-
-.modalitiesimg {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  border: 1px #f8f8f8 solid;
-  gap: 50px;
-  
-}
-
-.modalitiesimg:hover {
-  opacity: 0.5;
-}
+/* COMEÇANDO O PROJETO MOVE DANCE */
 
 .exchange {
   width: 100%;
+  max-width: 1700px;
   margin: 0 auto;
   display: flex;
   margin-top: 30px;
@@ -431,7 +367,7 @@
   
   .box-img-text-content-main img {
     height: 250px;
-    width: auto;
+    width: 100%;
     
   }
   

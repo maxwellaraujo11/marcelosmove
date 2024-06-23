@@ -20,6 +20,15 @@ body {
   margin: 0 auto;
 }
 
+.box-header a {
+  text-decoration: none;
+}
+
+.box-header a i {
+  font-size: 30px;
+  color: #f8f8f8;
+}
+
 .box-header h1 {
   color: aliceblue;
   font-size: 2.5rem;

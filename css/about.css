@@ -53,7 +53,7 @@ main {
    font-size: 20px;
    line-height: 40px;
    margin-top: 20px;
-   color: #c30606;
+   color: #c30606bc;
 }
 
 .rastag {
@@ -73,10 +73,19 @@ main {
 
 .cursos {
   clear: both;
-  margin-left: 5%;
+  margin-left: 3%;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
+.cursos h2, h3 {
+  color: #343434;
+}
 
+.cursos p {
+  font-weight: bold;
+  color: #5b5b5b;
+}
 
 .box-formations {
   display: flex;
@@ -89,7 +98,7 @@ main {
   flex-direction: row;
   align-items: center;
   text-align: center;
-  background-color: #a9a9a9;
+  background-color: #ff0000d6;
 }
 
 .box-cursos-text {
@@ -112,9 +121,32 @@ main {
   
 }
 
-.main-size img {
+.box-formation-livres{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  flex-direction: row;
+}
+
+.box-cursos-livres {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  background-color: #ff0000d6;
+}
+
+
+
+.box-cursos-livres .img-fomation-livres{
+  width: 50%;
+  height: 400px;
+}
+
+.imglogoabout {
   width: 40%;
-  
+  margin-top: 40px;
 }
 
 .areacentral {
@@ -123,7 +155,7 @@ main {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px 5%;
 }
 
 .valorestitle {

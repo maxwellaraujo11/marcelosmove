@@ -377,9 +377,6 @@
     margin-top: 25px;
   }
 
-  .grade-aulas {
-    width: 90%;
-  }
 
   .contentmain h2 { 
     text-align: center;
@@ -406,42 +403,81 @@
 
 
 
-  
-  .modalitiesHome {
-    border-radius: 0;
-    overflow-x: scroll !important;
-    width: 90%;
+/* COMEÇANDO A PARTE DA GRADE DE AULAS E DO ESPAÇO FISICO */
+  .espaco-grade {
+    flex-direction: column; 
+    width: 100%;
   }
   
+  
+  .contentmain {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+  }
 
-  .modalitiesHome::-webkit-scrollbar {
-    height: 10px; /* largura da barra de rolagem */
+  .grade-aulas {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+  }
+  
+  .box-img-text-content-main {
+    width: 100%;
+  }
+  
+  .box-img-text-content-main img {
+    height: 250px;
+    width: auto;
     
   }
   
-  .modalitiesHome::-webkit-scrollbar-track {
-    background: none; /* cor de fundo do track */
+  .box-text-content-main-2 {
+    background-color: #f8f8f8;
+    width: 100%;
   }
   
-  .modalitiesHome::-webkit-scrollbar-thumb {
-    background: #f0eded; /* cor do thumb */
-    border-radius: 8px; /* borda arredondada do thumb */
-    transition: 1s ease-in-out;
-    cursor: grab;
+  .box-text-content-main-2 ul {
+    text-align: justify;
+    width: 45%;
+    margin: 0 auto;
   }
   
-  .modalitiesHome::-webkit-scrollbar-thumb:hover {
-    background: #504e4ed5; /* cor do thumb quando hover */
-    transform: scale(1.2);
+  .box-text-content-main {
+    background-color: #f8f8f8;
+    width: 100%;
   }
-
+  
+  
+  
+  .contentmain h2, .grade-aulas h2 { 
+    color: #0f0e0e;
+    font-size: 1.3rem;
+    padding-inline: 5%;
+  }
   
 
+  /* COMEÇANDO AS MIDIAS ACIMA DO FOOTER */
+  
+  
+  .midias-sociais .midias-links {
+    margin: 10px auto;
+  }
+  
+  .midias-sociais .midias-links .midias-links-itens  a{
+    margin-inline: 10px;
+  }
 
+ 
+
+  /* COMEÇANDO A PARTE DO PROJETO MOVE DANCE */
   .exchange {
     width: 100%;
     display: block;
-    border-top-right-radius: 40px;
+    
     
   }
   

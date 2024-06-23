@@ -1,11 +1,13 @@
 // MENUS DESKTOP E MOBILE
 function openMenuMobile() {
   document.querySelector(".menu-mobile").style.display = "block";
+  document.querySelector(".logo").style.display = "none"
   document.querySelector(".openMenu").style.display = "none";
 }
 
 function closeMenuMobile() {
   document.querySelector(".menu-mobile").style.display = "none";
+  document.querySelector(".logo").style.display = "flex"
   document.querySelector(".openMenu").style.display = "block";
 }
 

@@ -7,8 +7,14 @@
 
 body  {
     background:  #820327;
-    max-height: 100%;
-    
+    height: 100%;  
+    font-family: "Poppins";
+}
+
+.btn-voltar  {
+    padding: 40px;
+    color: #f8f8f8;
+    font-size: 2rem;
 }
 
 summary{
@@ -39,7 +45,7 @@ h2 {
     background-color: #dedede;
     margin-top: 40px;
     border-radius: 3px;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
 }
 
 
@@ -158,6 +164,17 @@ table thead tr th {
 }
 th, td {
     border: 1px solid #dedede;
+}
+
+
+.credits {
+    text-align: center;
+}
+
+
+
+form {
+    z-index: 9;
 }
 
 

@@ -97,7 +97,7 @@ hr {
   margin-bottom: 5px;
 }
 
-@media (min-width: 1000px) and (max-width: 1280px) {
+@media (min-width: 1001px) and (max-width: 1280px) {
   .box-header {
    margin-inline: 3%;
   }
@@ -116,7 +116,7 @@ hr {
   }
 
   .texto {
-    font-size: 5px;
+    font-size: 1rem;
   }
 
   .box-content h3 {
@@ -132,7 +132,7 @@ hr {
   }
 }
 
-@media (min-width: 580px) and (max-width: 999px) {
+@media (min-width: 701px) and (max-width: 1000px) {
   .box-header {
     margin-inline: 3%;
    }
@@ -146,26 +146,25 @@ hr {
    .box-modalidade img {
      width: 80%;
      height: 80%;
+     margin-bottom: 20px;
    }
 
    .box-content {
     width: 80%;
-    display: flex;
-    justify-content: space-between;
+    display: block;
     margin: 0 auto;
     margin-top: 20px;
    }
 
    .box-content .texto {
-    width: 47%;
-    font-size: 16px;
-    line-height: 15px;
+    width: 100%;
+    font-size: 1.3rem;
     text-align: left;
    }
 
    .box-content h3 {
     font-size: 2rem;
-    margin-top: 0;
+    margin-top: 40px;
   }
 
   .box-dates-times {
@@ -178,9 +177,13 @@ hr {
     text-align: left;
     width: 100%;
   }
+
+  hr {
+    margin-bottom: 100px;
+  }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 700px) {
 
   .box-header {
     margin-inline: 5%;
@@ -200,6 +203,11 @@ hr {
   .box-modalidade img {
     width: 90%;
     height: 90%;
+  }
+
+  .texto {
+    font-size: 1.5rem;
+    width: 100%;
   }
 
   .box-content {

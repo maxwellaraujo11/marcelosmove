@@ -3,6 +3,10 @@
   border-radius: 5px;
 }
 
+body {
+  height: 100%;
+}
+
 .top-equipe {
   width: 100%;
   background-color: #020202fc;
@@ -117,11 +121,47 @@
 }
 
 .box1 img {
-  width: 400px;
+  width: 40%;
 }
 
 .box-director-text {
   width: 50%;
+}
+
+.box1 .btn-saiba-mais {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 190px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color:#820327;
+  font-size: 1.1rem;
+  box-shadow: none;
+  border: '#000' 1px solid;
+  color: #f8f8f8;
+  margin-top: 20px;
+
+  animation-name: anime-button;
+  animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes anime-button {
+  0% {
+    transform: scale(1);
+  } 
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.box1 .btn-saiba-mais:hover {
+  color: #f8f8f8;
+  background-color: #c30606;
+  transition: 0.9s;
 }
 
 .background-coordenadores {
@@ -209,6 +249,10 @@
   margin-top: 0;
 }
 
+.credits {
+  text-align: center;
+}
+
 
 /*---------------------------- RESPONSIVIDADE  ------------------------------*/ 
 
@@ -217,63 +261,14 @@
     margin-left: 2%;
   }
 
-  .background-professor {
-    width: 100%;
-    text-align: center;
-  }
-
-  .professores {
-    margin-inline-start: 1.5%;
-  }
+  
 }
 
 @media (max-width: 1000px) {
-  .box-title {
-    width: 100%;
-    margin-left: 2%;
-    display: flex;
-    align-items: center;
-  }
 
-  .box-director {
-    width: 97%;
-    display: block;
-    flex-wrap: wrap;
-    align-items: center; 
-  }
 
-  .box1 {
-    width: 300px;
-    height: 400px;
-    transition: .5s ease-in-out;
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-
-  .background-coordenadores {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-
-  .background-professor {
-    width: 100%;
-    text-align: center;
-  }
-
-  .professores {
-    width: 97%;
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-
-  .box-professor {
-    margin: 0 auto;
-    text-align: center;
-  }
-  
 }
+  
 
 /* ----------------- MAX 500PX ------------------*/ 
 
@@ -292,24 +287,23 @@
     content: url('../img/equipe/capa-mobile.png');
   }
 
-  
-  
   .box1 {
-    width: 80%;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    padding: 40px;
-    gap: 40px;
-    margin: 0 auto;
-    margin-top: 2px;
+    display: block;
+    width: 100%;
+  }
+
+  .box1 img {
+    width: 100%;
   }
 
   .box-director-text {
     width: 100%;
   }
 
-  .background-professor {
-    margin-top: 100px;
+  .fredy {
+    display: flex;
+    flex-direction: column-reverse;
   }
+
+  
 }

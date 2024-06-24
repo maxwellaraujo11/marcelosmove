@@ -7,7 +7,7 @@
 
 .SliderDestaque img {
   width: 87%;
-  max-width: 1600px;
+  max-width: 1700px;
   height: 400px;
   margin: 0 auto;
   border-radius: 10px;
@@ -237,6 +237,15 @@
     height: 300px;
   }
 
+  .box-text-content-main-2 h2 {
+    font-size: 1rem;
+    padding-inline: 40px;
+  }
+
+  .box-text-content-main-2 ul {
+    font-size: .9rem;
+  }
+
   .exchange {
     width: 90%;
     margin: 0 auto;
@@ -260,7 +269,18 @@
 }
 
 /* CORREÇÕES PARA AS PARTES DE EXCHANGE */
-@media (min-width: 651px) and (max-width: 1000px) {
+@media (min-width: 701px) and (max-width: 1000px) {
+
+  .box-text-content-main-2 h2 {
+    font-size: 1rem;
+    padding-inline: 10px;
+    margin-top: 20px;
+  }
+
+  .box-text-content-main-2 ul {
+    font-size: .9rem;
+  }
+
   .exchange {
     width: 90%;
     margin: 0 auto;
@@ -291,7 +311,7 @@
 
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   
   .SliderDestaque img {
     width: 100%;

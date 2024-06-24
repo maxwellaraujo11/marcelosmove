@@ -10,6 +10,7 @@ body {
 .top-equipe {
   width: 100%;
   background-color: #020202fc;
+  max-width: 1700px;
   height: 400px;
   margin: 0 auto;
   display:block;
@@ -55,8 +56,10 @@ body {
 
 .top-equipe img {
   width: 100%;
+  max-width: 1700px;
   height: 400px;
   transition: ease-in-out .3s;
+  margin: 0 auto;
 }
 
 .top-equipe img:hover {
@@ -107,6 +110,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #f8f8f8;
+  margin: 0 auto;
 }
 
 .box1 {

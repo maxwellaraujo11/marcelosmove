@@ -537,19 +537,24 @@ main {
   
    /* AREA DA IMAGEM E VALORES */
 
-  .imglogoabout {
-    width: 275px;
-    margin: 0 auto;
-    margin-top: 10px;
-  }
+  
   
   .areacentral {
-    display: block;
+    display: flex;
+    flex-direction: column;
     clear: both;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
     padding: 20px 0;
+  }
+
+  .imglogoabout {
+    width: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
   }
   
   .valorestitle {
@@ -593,6 +598,11 @@ main {
   }
 
   /*-------------------------------------------*/
+
+  .box-footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
    .credits h6 {
       font-size: .8rem;
    }

@@ -266,7 +266,25 @@ body {
 
 @media (max-width: 1000px) {
 
+  .top-equipe img{
+    content: url('../img/equipe/capa-mobile.png');
+  }
 
+  .box1 {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .box1 img {
+    width: 50%;
+    background-color: #573f9a;
+  }
+
+  .box-director-text {
+    width: 50%;
+
+  }
 }
   
 
@@ -301,6 +319,11 @@ body {
   }
 
   .fredy {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .box-footer {
     display: flex;
     flex-direction: column-reverse;
   }

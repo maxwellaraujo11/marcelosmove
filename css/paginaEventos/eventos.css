@@ -12,6 +12,7 @@ a .btn-voltar {
     font-size: 2rem;
     position: absolute;
     left: 8%;
+    top: 20px;
     background-color: #f8f8f8;
     padding: 5px 10px;
     border-radius: 5px;
@@ -25,7 +26,6 @@ a .btn-voltar:hover {
   }
 
 .first-section {
-    margin-top: 100px;
     width: 100%;
     display: flex;
     flex-direction: row;

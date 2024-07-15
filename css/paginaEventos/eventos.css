@@ -31,3 +31,29 @@ main {
 .text-first-section p {
     padding-inline: 20px;
 }
+
+@media screen and (max-width: 700px) {
+    .first-section {
+        flex-direction: column;
+    }
+
+    .first-section img {
+        content: url("/img/sliderHome/3.jpeg");
+        width: 100%;
+    }
+
+    .text-first-section {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .text-first-section h3 {
+        padding-inline: 10px;
+    }
+    
+    .text-first-section p {
+        padding-inline: 10px;
+    }
+
+
+}

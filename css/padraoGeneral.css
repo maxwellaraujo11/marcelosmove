@@ -185,7 +185,7 @@ header .desktop .menu-desktop a:hover::before {
   text-align: center;
   text-decoration: none;
   color: #f8f8f8;
-  width: fit-content;
+  width: auto;
   margin: 0 auto;
   padding: 3px 20px;
 }

@@ -9,6 +9,7 @@ main {
 }
 
 .first-section {
+    margin-top: 100px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -21,4 +22,12 @@ main {
 
 .text-first-section {
     width: 80%;
+}
+
+.text-first-section h3 {
+    padding-inline: 30px;
+}
+
+.text-first-section p {
+    padding-inline: 20px;
 }

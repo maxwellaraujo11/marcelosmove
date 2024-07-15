@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #f8f8f8;
+}
+
+.first-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first-section img {
+    width: 50%;
+}
+
+.text-first-section {
+    width: 80%;
+}

@@ -69,6 +69,10 @@ main img {
   padding-left: 10px;
 }
 
+.dates-times h3 {
+  color: #f8f8f8;
+}
+
 /* ----------------------- RESPONSIVIDADE -----------------------*/  
 
 @media (min-width: 1000px) and (max-width: 1280px ) {
